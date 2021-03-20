@@ -1,0 +1,24 @@
+{
+  "Name": "Operador de Maquina Virtual",
+  "IsCustom": true,
+  "Description": "Pode monitorar e reinilizar maquina virtuais.",
+  "Actions": [
+    "Microsoft.Storage/*/read",
+    "Microsoft.Network/*/read",
+    "Microsoft.Compute/*/read",
+    "Microsoft.Compute/virtualMachines/start/action",
+    "Microsoft.Compute/virtualMachines/restart/action",
+    "Microsoft.Authorization/*/read",
+    "Microsoft.ResourceHealth/availabilityStatuses/read",
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Insights/alertRules/*",
+    "Microsoft.Insights/diagnosticSettings/*",
+    "Microsoft.Support/*"
+  ],
+  "NotActions": [],
+  "DataActions": [],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/58117a90-******-*******-*******"
+  ]
+}
